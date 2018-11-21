@@ -91,3 +91,4 @@ salmon_r
 # Pearson's r = .974, p<.001 --> strong positive correlation between year and salmon imports
 ```
 
+Year is a significant predictor of US fresh salmon imports (Imports(tons) = -14982940 + 7550(Year), *p* <0.001, Pearson's *r* = `r salmon_r$statistic`) and the overall model fit is *R^2^* = 0.95.
